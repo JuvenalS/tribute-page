@@ -5,7 +5,6 @@
 *,
 *::before,
 *::after {
-    -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +16,6 @@ html {
 }
 
 body {
-    /* border: 1px solid; */
     font: 100% verdana, arial, tahoma, sans-serif;
     font-weight: 500;
     text-align: center;
@@ -31,7 +29,6 @@ body {
     border-radius: .2rem;
     background-color: #eeeeee;
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
@@ -88,7 +85,6 @@ body {
     padding: 5px;
     border-radius: 1px;
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
 
